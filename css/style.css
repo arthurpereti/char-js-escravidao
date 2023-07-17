@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header  {
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header #navcabecalho #listadesordenadacabecalho {
+    list-style: none;
+}
+
+header #navcabecalho #listadesordenadacabecalho  li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header #navcabecalho #listadesordenadacabecalho li a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+header #navcabecalho #listadesordenadacabecalho li a:hover {
+    color: rgb(155, 153, 153);
+}
+
+
+main {
+    padding: 20px;
+}
+
+
+footer {
+    background-color: black;
+    padding: 10px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+
+/* Estilos para os nomes dos criadores no rodapé */
+#nomesdoscriadores {
+    display: flex;
+    justify-content: space-between;
+}
