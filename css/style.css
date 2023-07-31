@@ -47,7 +47,6 @@ footer {
     letter-spacing: 2px;
 }
 
-/* Estilos para os nomes dos criadores no rodapé */
 #nomesdoscriadores {
     display: flex;
     justify-content: space-between;

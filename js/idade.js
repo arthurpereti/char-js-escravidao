@@ -1,6 +1,6 @@
 const idade_mas = document.getElementById('idade_mas');
 
-  Chart.defaults.borderColor = '#fff'
+  Chart.defaults.borderColor = '#000'
   Chart.defaults.color = '#000'
   Chart.defaults.font.family = 'system-ui'
   Chart.defaults.font.weight = '1000'
@@ -10,7 +10,7 @@ const idade_mas = document.getElementById('idade_mas');
     data: {
       labels: ['menor de 18','18-24','25-29','30-34','35-39','40-44','45-49','50-54','55-59','maior de 60'],
       datasets: [{
-        label: '62 homens escravizados residentes do Distrito Federal',
+        label: 'Setores Econômicos mais frequentemente Envolvidos',
         data: [2,7,8,12,13,7,4,4,3,2],
         borderWidth: 5
       }]
