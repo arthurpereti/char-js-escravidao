@@ -35,10 +35,7 @@ header #navcabecalho #listadesordenadacabecalho li a:hover {
 }
 
 
-main {
-    padding: 20px;
-}
-
+/* --------------------------------------------------------------- */
 
 footer {
     background-color: black;

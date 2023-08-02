@@ -40,8 +40,16 @@ main {
 }
 
 
-/*  */
+/*  ===================================================== */
+.radargfclargura{
+    width: 31.25em;
 
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*  ===================================================== */
 
 footer {
     background-color: black;
