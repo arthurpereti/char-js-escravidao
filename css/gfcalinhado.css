@@ -1,0 +1,11 @@
+main{
+    padding: 10px 130px 10px 130px ;
+}
+
+.section01 , .section02 , .section03{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    text-align: center;
+}
+

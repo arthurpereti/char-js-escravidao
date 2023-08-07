@@ -12,7 +12,7 @@ const setoreseconomicos = document.getElementById('setoreseconomicos');
   new Chart(setoreseconomicos, {
     type: 'radar',
     data: {
-      labels: ['Atividades de apoio à agricultura ','Produção florestal - florestas plantadas','Cultivo de café','Construção de Edifícios','Cultivo de laranja','Fabricação de produtos de fumo','Criação de bovinos','Outros'],
+      labels: ['Apoio à agricultura ','Produção florestal','Cultivo de café','Construção de Edifícios','Cultivo de laranja','Produtos de fumo','Criação de bovinos','Outros'],
       datasets: [{
         label: 'Setores Econômicos mais frequentemente Envolvidos',
         data: [204,101,87,73,57,54,50,248],
@@ -52,7 +52,7 @@ const setoreseconomicos = document.getElementById('setoreseconomicos');
   new Chart(ocupacaomaisrecente, {
     type: 'radar',
     data: {
-      labels: ['Trabalhador volante da agricultura','Trabalhador da cultura de café','Trabalhador de pecuária','Cortador de pedras','Servente de obras','Pedreiro','Outros'],
+      labels: ['Trabalhador da agricultura','Trabalhador de café','Trabalhador de pecuária','Cortador de pedras','Servente de obras','Pedreiro','Outros'],
       datasets: [{
         label: 'Ocupações mais frequentes',
         data: [96,90,51,41,32,29,50],

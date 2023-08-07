@@ -34,6 +34,88 @@ header #navcabecalho #listadesordenadacabecalho li a:hover {
     color: rgb(155, 153, 153);
 }
 
+/* --------------------------------------------------------------- */
+
+/* Estilo para a seção 01 */
+#secao01index {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+  }
+  
+  #secao01index img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #secao01index h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #secao01index p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para a seção 02 */
+  #secao02index {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+    background-color: #f0f0f0;
+  }
+  
+  #secao02index h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #secao02index p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Estilo para a seção 03 */
+  .secao03index {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .secao03index h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  .secao03index p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+
+  
+  .secao03index iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para links */
+  a {
+    color: #3498db;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
 
 /* --------------------------------------------------------------- */
 
