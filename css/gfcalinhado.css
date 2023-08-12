@@ -1,11 +1,42 @@
 main{
-    padding: 10px 130px 10px 130px ;
+    padding: 0.625rem 8.125rem 0.625rem 8.125rem ;
 }
 
+@media (max-width: 900px) {
+    main{
+        padding: 10px 30px 10px 30px;
+    }
+  }
 .section01 , .section02 , .section03{
     display: flex;
     flex-direction: row;
-    gap: 12px;
+    justify-content: space-between;
     text-align: center;
+}
+
+@media (max-width: 900px) {
+    .section01 , .section02 , .section03{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.radargfclargura{
+    width: 31.25em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 900px) {
+    .radargfclargura{
+        width: 350px;
+        height: auto;
+
+        font-size: 10px;
+    }
 }
 

@@ -7,7 +7,7 @@
 
 header  {
     background-color: black;
-    padding: 10px;
+    padding: 0.625rem;
     color: #fff;
 
     display: flex;
@@ -21,13 +21,13 @@ header #navcabecalho #listadesordenadacabecalho {
 
 header #navcabecalho #listadesordenadacabecalho  li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 header #navcabecalho #listadesordenadacabecalho li a {
     color: white;
     text-decoration: none;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 header #navcabecalho #listadesordenadacabecalho li a:hover {
@@ -36,26 +36,20 @@ header #navcabecalho #listadesordenadacabecalho li a:hover {
 
 
 main {
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 
 /*  ===================================================== */
-.radargfclargura{
-    width: 31.25em;
-
-    display: flex;
-    flex-direction: column;
-}
 
 
 /*  ===================================================== */
 
 footer {
     background-color: black;
-    padding: 10px;
+    padding: 0.625rem;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 0.125rem;
 }
 
 #nomesdoscriadores {
