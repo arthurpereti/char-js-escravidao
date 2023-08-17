@@ -1,139 +1,156 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
-header  {
-    background-color: black;
-    color: #fff;
+header {
+  background-color: black;
+  color: #fff;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media (max-width: 500px) {
+  #cabecalho{
+    display: none;
+  }
 }
 
 header #navcabecalho #listadesordenadacabecalho {
-    list-style: none;
+  list-style: none;
 }
 
-header #navcabecalho #listadesordenadacabecalho  li {
-    display: inline-block;
-    margin-right: 1.25rem;
+header #navcabecalho #listadesordenadacabecalho li {
+  display: inline-block;
+  margin-right: 1.25rem;
 }
 
 header #navcabecalho #listadesordenadacabecalho li a {
-    color: white;
-    text-decoration: none;
-    letter-spacing: 0.125rem;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.125rem;
 }
 
 header #navcabecalho #listadesordenadacabecalho li a:hover {
-    color: rgb(155, 153, 153);
+  color: rgb(155, 153, 153);
 }
+
+#mediaquerycabecalhocelular , #tresbarrinhasmenu{
+  display: none;
+}
+
+@media (max-width: 500px) {
+  #tresbarrinhasmenu {
+    display: flex;
+  }
+}
+
 
 /* --------------------------------------------------------------- */
 
 /* Estilo para a seção 01 */
 #secao01index {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2.5rem;
-    gap: 1.25rem;
-  }
-  
-  @media (max-width: 900px) {
-    #secao01index {
-      display: flex;
-      flex-direction: column;
-    }
-  }
-  
-  #secao01index img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  #secao01index h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0.625rem;
-  }
-  
-  #secao01index p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  /* Estilo para a seção 02 */
-  #secao02index {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2.5rem;
-    background-color: #f0f0f0;
-  }
-  
-  #secao02index h1 {
-    font-size: 1.5rem;
-    margin-bottom: 0.625rem;
-  }
-  
-  #secao02index p {
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-  
-  /* Estilo para a seção 03 */
-  .secao03index {
-    text-align: center;
-    padding: 2.5rem;
-    background-color: #fff;
-    color: rgb(0, 0, 0);
-  }
-  
-  .secao03index h2 {
-    font-size: 1.5rem;
-    margin-bottom: 1.25rem;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5rem;
+  gap: 1.25rem;
+}
 
-  .secao03index p {
-    font-size: 1rem;
-    line-height: 1.5;
+@media (max-width: 900px) {
+  #secao01index {
+    display: flex;
+    flex-direction: column;
   }
-  
+}
 
-  
-  .secao03index iframe {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    margin-bottom: 1.25rem;
-  }
-  
-  /* Estilo para links */
-  a {
-    color: #3498db;
-    text-decoration: none;
-  }
-  
-  a:hover {
-    text-decoration: underline;
-  }
-  
+#secao01index img {
+  max-width: 100%;
+  height: auto;
+}
+
+#secao01index h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+#secao01index p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Estilo para a seção 02 */
+#secao02index {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2.5rem;
+  background-color: #f0f0f0;
+}
+
+#secao02index h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.625rem;
+}
+
+#secao02index p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Estilo para a seção 03 */
+.secao03index {
+  text-align: center;
+  padding: 2.5rem;
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.secao03index h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.secao03index p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+
+.secao03index iframe {
+  width: 100%;
+  max-width: 560px;
+  height: 315px;
+  margin-bottom: 1.25rem;
+}
+
+/* Estilo para links */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 /* --------------------------------------------------------------- */
 
 footer {
-    background-color: black;
-    padding: 0.625rem;
-    color: #fff;
-    letter-spacing: 0.125rem;
+  background-color: black;
+  padding: 0.625rem;
+  color: #fff;
+  letter-spacing: 0.125rem;
 }
 
 #nomesdoscriadores {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
