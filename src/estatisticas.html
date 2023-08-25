@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/barra.css">
+    <link rel="stylesheet" href="/css/estatisticas.css">
+    <link rel="shortcut icon" href="/assets/img/a2.png" type="image/x-icon">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="/js/estatisticas.js" defer></script>
+    <script src="/js/formula.js" defer></script>
+
+    <title>Trabalho Analogo a Escravidao Em goiás</title>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <nav id="navcabecalho">
+            <ul id="listadesordenadacabecalho">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="/src/barra.html">Gráfico de Barra</a></li>
+                <li><a href="/src/pizza.html">Gráfico de Pizza</a></li>
+                <li><a href="/src/linha.html">Gráfico de Linha</a></li>
+                <li><a href="/src/radar.html">Gráfico de Radar</a></li>
+                <li><a href="/src/estatisticas.html">Estatísticas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        
+        <main>
+            <section class="section01estatisiticas">
+                <div class="radargfclargura">
+                    <h2>Faixa Etária</h2>
+                    <canvas id="faixaetaria"></canvas>
+                </div>
+            </section>
+
+            
+
+            <section class="section02estatisiticas">
+                <button id="media" class="button-28">Clique para Calcular as Estatísticas</button>
+                <p id="med_idad"></p>
+                <p id="varianc"></p>
+                <p id="desv_pad"></p>
+            </section>
+        </main>
+
+
+    <footer>
+        <div id="nomesdoscriadores">
+            <p>Arthur Pereti</p>
+            <p>Eliel Alves</p>
+            <p>Luiz Oro</p>
+        </div>
+    </footer>
+</body>
+
+</html>

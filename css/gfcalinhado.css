@@ -7,7 +7,19 @@ main{
         padding: 10px 30px 10px 30px;
     }
   }
-.section01 , .section02 , .section03{
+.section01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.section02{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+.section03{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

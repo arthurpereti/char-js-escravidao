@@ -6,13 +6,14 @@ let  desv_pad = document.getElementById('desv_pad')
 
 // masculino Resgatados Residentes em SC
 // >50, >40, >30, >18, <18
-let dados = [31, 70, 117 , 182, 5]
+let dados = [16,185,165,75]
 let med_idade = 0
 let variancia = 0
 let soma_variancia = 0
 let desvio_padrao = 0
 
 media.addEventListener('click', ()=>{
+    media.style.display = 'none'
     let soma = 0
     let contador = 0
     
