@@ -14,12 +14,6 @@ header {
   justify-content: center;
 }
 
-@media (max-width: 500px) {
-  #cabecalho{
-    display: none;
-  }
-}
-
 header #navcabecalho #listadesordenadacabecalho {
   list-style: none;
 }
@@ -38,17 +32,6 @@ header #navcabecalho #listadesordenadacabecalho li a {
 header #navcabecalho #listadesordenadacabecalho li a:hover {
   color: rgb(155, 153, 153);
 }
-
-#mediaquerycabecalhocelular , #tresbarrinhasmenu{
-  display: none;
-}
-
-@media (max-width: 500px) {
-  #tresbarrinhasmenu {
-    display: flex;
-  }
-}
-
 
 /* --------------------------------------------------------------- */
 
